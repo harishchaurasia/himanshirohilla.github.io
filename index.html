@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo" onclick="location.href=''">Himanshi Rohilla</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#home"></a></li>
+                <li><a href="#experience">Experiences</a></li>
+                <!-- <li><a href="#projects">Projects</a></li> -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Himanshi Rohilla</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#experience" onclick="toggleMenu()">Experiences</a></li>
+                <!-- <li><a href="#projects" onclick="toggleMenu()">Projects</a></li> -->
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/himanshi.png" alt="Harish's Profile Picture">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1"> Hello, I'm</p>
+            <h1 class="title"> Himanshi Rohilla</h1>
+            <p class="section_text_p2">Agribusiness Management, MBA<BR> Horticulture, B.Sc.(Hons.)
+            </p>
+            <div id="socials-container">
+                <a href="https://www.linkedin.com/in/rohillahimanshi/" target="_blank">
+                    <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" />
+                </a>
+                <!-- <a href="https://github.com/harishchaurasia" target="_blank">
+                    <img src="./assets/github.png" alt="My Github profile" class="icon" />
+                </a> -->
+                <a href="mailto:himanshirohilla.iabm@gmail.com" target="_blank">
+                    <img src="./assets/email.png" alt="My email" class="icon" />
+                </a>
+                <a href="https://www.instagram.com/_man0_0shaa/" target="_blank">
+                    <img src="./assets/insta.png" alt="My instagram profile" class="icon" />
+                </a>
+            </div>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume2024.pdf')">
+                    My Resume
+                </button>
+                <button class="btn btn-color-2" onclick="location.href='./#contact'">
+                    Let's Connect
+                </button>
+            </div>
+
+            <div id="socials-container">
+                <!-- <a href="https://linkedin.com/in/harishchaurasia" target="_blank">
+                    <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" />
+                </a> -->
+                <button class="btn btn-color-1"
+                    onclick="window.open('https://www.linkedin.com/in/rohillahimanshi/', '_blank')">
+                    Linkedin
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="./assets/about-pic.png" alt="Profile Picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="experience icon" class="icon" />
+                        <h3>Experiences</h3>
+                        <p>Agribusiness Management<br> Business Development <br> Human Resources Trainee</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p> MBA in Agribusiness Management<br />B.Sc in Horticulture <br />
+                            Business & Agriculture Certifications
+                        </p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p style="text-align: justify;"> Hello there and welcome to my website!
+                        I am Himanshi, a passionate Agribusiness Management student at the Institute of Agribusiness
+                        Management (IABM), Bikaner, Rajasthan. My academic journey began with a degree in Horticulture
+                        from Sher-E-Kashmir University of Applied Sciences and Technology, Srinagar, J&K. My commitment
+                        to fostering sustained personal and professional growth within the agribusiness sector drives
+                        my endeavors. As I embark on this journey, I aspire to harness and expand my knowledge and
+                        skills in a dynamic and motivational environment. My goal is tocontribute significantly
+                        to the success and innovation of the industry, all while promoting sustainable agricultural
+                        practices. Join me on this exciting adventure as I strive to make a positive impact in the world
+                        of agribusiness.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+
+
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Business Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Agribusiness</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Sales </h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Mareketing</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Presentation</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Project Management</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Business Development</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Agriculture & Farming</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Horticulture</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Agribusiness</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Bio-Inputs</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Field Experiences</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Precision Farming</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Vermi-Composting</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow"
+                    onclick="location.href='./#experience'" />
+    </section>
+    <!-- <section id="projects">
+        <p class="section_text_p1"> Browse my Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/github.png" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Dijkstra Path Finder</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project btn"
+                            onclick="location.href='https://github.com/harishchaurasia/Project3-graphs'">
+                            Github Link
+                        </button>
+
+                         <button class="btn btn-color-2 project btn"
+                            onclick="location.href='https://github.com/harishchaurasia'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/susinator.webp" alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Susinator</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project btn"
+                            onclick="location.href='https://github.com/harishchaurasia/Susinator'">
+                            Github Link
+                        </button>
+                        <button class="btn btn-color-2 project btn"
+                            onclick="location.href='https://github.com/harishchaurasia'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/github.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">MinHeap</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project btn"
+                            onclick="location.href='https://github.com/harishchaurasia/minHeap-Project2'">
+                            Github Link
+                        </button>
+                        <button class="btn btn-color-2 project btn"
+                            onclick="location.href='https://github.com/harishchaurasia'">
+                            Live Demo
+                        </button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section> -->
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:himanshirohilla.iabm@gmail.com" target="_blank">himanshirohilla.iabm@gmail.com</a>
+                </p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com/in/rohillahimanshi/" target="_blank">Linkedin</a></p>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#home"></a></li>
+                    <li><a href="#experience">Experiences</a></li>
+                    <!-- <li><a href="#projects">Projects</a></li> -->
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Himanshi Rohilla. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
